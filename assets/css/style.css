@@ -2,10 +2,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
 
-h1 {
-    font-family: 'Instrument Sans', sans-serif; 
+:root {
+    --primary-font:'Instrument Sans', sans-serif; 
+    --secondary-font:'Quicksand' , cursive;
+    --primary-color: #3a5532; /*dark green*/
+    --secondary-color: #a9e2bc; /*lighter green*/
+    --highlight-color: #4e511a; /*darkish yellow*/
+    --highlight-color-light:#f3f99f; /*light yellow*/
+
+
 }
 
-p {
-    font-family: 'Quicksand' , cursive;
+/*Global styles*/
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font) 
 }
+
+body {
+    font-family: var(--secondary-font)
+}
+
+/*nav bar*/
+#navbar {
+    background-color: var(--primary-color);
+    color: white !important;
+}
+
+
