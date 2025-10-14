@@ -45,5 +45,11 @@ body {
     font-family: var(--secondary-font);
     text-spacing-trim: 2 px;
 }
-
+/*Footer*/
+#contact {
+    background-color: var(--primary-color);
+}
+#contact .social-links {
+    color: var(--highlight-color-light);
+}
 
