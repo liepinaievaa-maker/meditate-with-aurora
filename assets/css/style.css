@@ -12,12 +12,6 @@
 
 
 }
-/*aesterick to override*/
-* {
-    padding: 0;
-    margin: 1 rem;
-    box-sizing: border-box;
-}
 /*Global styles*/
 h1,
 h2,
@@ -34,33 +28,22 @@ body {
 /*nav bar*/
 #navbar {
     background-color: var(--primary-color);
-    color: white !important;
+
+}
+#navbar .nav-link {
+    color:white;
+    word-spacing: 6px;
+    letter-spacing: 0.5px;
+}
+#navbar .navbar-brand {
+    color: white;
+    letter-spacing: 3px; 
+    font-weight: 600;
+    font-size: 20px;
 }
 .nav-item {
-    
-}
-/*Header*/
-header {
-   background-color: var(--primary-color);
-  padding: 0 2rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    display: flexbox;
-    justify-content: space-between;
-    align-items: center;
-}
-#logo {
-    font-size: 200%;
-    letter-spacing: 5px;
-    margin-top: 2rem;
-    align-content: flex-start;
-    justify-content: space-between;
-   
-}
-#logo > li {
-    margin-bottom: 1em;
-    margin-top: ;
+    font-family: var(--secondary-font);
+    text-spacing-trim: 2 px;
 }
 
 
