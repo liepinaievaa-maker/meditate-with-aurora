@@ -104,13 +104,56 @@ p {
   font-size: 1.2rem;
   color: white;
 }
+/*About section*/
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;   
+  max-width: 1300px;       
+  margin: 0 auto; 
+  padding: 40px 0;
+  gap: 60px;
+}
+
+
+.about-image {
+  width: 220px;
+  height: auto;
+  border-radius: 75px;
+  object-fit: cover;
+}
+
+
+.about-image.top {
+  align-self: flex-start;
+}
+
+
+.about-image.bottom {
+  align-self: flex-end;
+}
+
+
+.about-text {
+  flex: 1;
+  text-align: center;
+}
+
+.about-text h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 600;
+}
 /*Buttons*/
 .custom-button-filled {
 border: 0.5px solid var(--highlight-color-light);
 background-color: var(--secondary-color);
 color:black;
 margin-left: 2px;
-margin-right: 2px;}
+margin-right: 2px;
+}
+
 .custom-button-filled:hover {
 
 }
