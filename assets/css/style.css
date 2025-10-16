@@ -79,17 +79,18 @@ p {
   text-transform: uppercase;
 }
 
+/*Transparent box in main*/
 .hero-text {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 525px;
   transform: translate(-50%, -50%);
   text-align: left;
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: rgba(0, 0, 0, 0.7); 
   color: white;
-  padding: 1.5rem 2rem;
-  border-radius: 15px;
-  max-width: 600px;
+  padding: 20rem 27rem;
+  border-radius: 60px;
+  max-width: 700px;
  
 }
 
@@ -145,6 +146,17 @@ p {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+/*Team section*/
+.team-section {
+  margin-top: 90px;
+}
+.team {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 /*Buttons*/
 .custom-button-filled {
 border: 0.5px solid var(--highlight-color-light);
@@ -153,10 +165,19 @@ color:black;
 margin-left: 2px;
 margin-right: 2px;
 }
-
 .custom-button-filled:hover {
 
 }
+.custom-button-outline {
+margin-top: 1rem;
+border: 2px solid var(--highlight-color-light);
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+margin-left: 2px;
+margin-right: 2px;
+}
+
+
 /*About section*/
 #about {
   text-align: center;
