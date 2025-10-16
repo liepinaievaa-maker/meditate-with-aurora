@@ -5,48 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Meditate with Aurora, learn new breathing techniques and meditations with our professionals."
+      content="Meditate with Aurora — learn breathing techniques and guided meditations with our professionals."
     />
     <title>Aurora | Home</title>
 
-    <!--Favicons made with favicon.co-->
+    <!-- Favicons -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/css/images/apple-touch-icon.png"
+      href="assets/images/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/css/images/favicon-32x32.png"
+      href="assets/images/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/css/images/favicon-16x16.png"
+      href="assets/images/favicon-16x16.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <!-- Custom css-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
-  <body class="d-flex flex-column min-vh-100">
-   
-      <!--Navbar-->
 
-      <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Header / Navbar -->
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
         <div class="container">
-          <a class="navbar-brand navbar-brand" href="index.html"><h1 class="heading"><i class="fa-regular fa-star"></i>Aurora</h1></a>
+          <a class="navbar-brand" href="index.html">
+            <h1 class="heading">
+              <i class="fa-solid fa-star"></i> Aurora
+            </h1>
+          </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -58,6 +59,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
@@ -67,102 +69,129 @@
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact">Contacts</a>
               </li>
-               <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="team.html">Team</a>
               </li>
-               <li class="nav-item">
+              <li class="nav-item">
                 <a href="booking.html" class="btn custom-button-filled">Booking</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
- 
+    </header>
 
-    <!--Main content-->
+    <!-- Main content -->
     <main>
+      <!-- Hero Section -->
       <section class="hero">
-        <img
-      src="assets/css/images/yoga.jpg"
-      alt="Join us for meditation"
-    />
-      <div class="hero-text">
-    <h1 id="meditation">Meditate with Aurora</h1>
-    <p><strong>Breathe deeply,<br> let go,<br> and allow our team to guide you <br>toward inner peace and<br> deep relaxation.</strong></p>
-  <a href="booking.html" class="btn custom-button-outline">Booking</a>  
-  </div>
-  
-    </section>
-</main>
-<!--About us section-->
-<section id="about">
-  <div class="about-container">
-    <img src="assets/css/images/breath.jpg" class="about-image" alt="Deep breathing techniques"/>
-    <div class="about-text">
-    <h2>About us</h2>
-    <p>
-      <strong>
-        At Meditate with Aurora, we offer gentle one-on-one meditation and breathing sessions designed to help you unwind, reconnect, and find balance in the middle of everyday stress.
-    </strong>
-  </p>
-    <br>
-<p>Whether you’re new to meditation or looking to deepen your practice, each session is personalized to your needs — guiding you through calming techniques that restore peace to your mind, body, and spirit.
-</p>
-</div>
-<img src="assets/css/images/meditation.jpg" class="about-image" alt="We offer deep meditation techniques">  
-</div>
-  </section>
+        <img src="assets/images/yoga.jpg" alt="Join us for meditation" class="img-fluid" />
 
-<!--footer-->
-   <footer id="contact" class="mt-auto">
-    <div class="container">
-      <div class="row justify-content-center text-center align-items-center">
-        <div class="col-12 text-center">
-          <!--Contact information-->
-          <h3 class="display-7 sub-heading-color mt-2">Contact information
-            </h3>
-          </div>
-          <div class="col-12 col-md-6 col-xl-4">
-          <h4 class="sub-heading-color"> Contact
-          </h4>
-              <address>
-                <i class="fa-solid fa-location-dot"></i>Aurora<br>
-                77 Aurora<br>
-                Aurora city, United Kingdom<br>
-              </address>
+        <div class="hero-text">
+          <h1 id="meditation">Meditate with Aurora</h1>
+          <p>
+            <strong>
+              Breathe deeply,<br />
+              let go,<br />
+              and allow our team to guide you<br />
+              toward inner peace and<br />
+              deep relaxation.
+            </strong>
+          </p>
+          <a href="booking.html" class="btn custom-button-outline">Booking</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+       
+          <div class="about-text">
+            <h2>About Us</h2>
+             <div class="about-container-one">
+          <img
+            src="assets/images/breath.jpg"
+            class="about-image"
+            alt="Woman practicing deep breathing"
+          />
+            <p>
              
-<p>
-  <i class="fa-solid fa-phone"></i>091 234 567 78<br>
-  <i class="fa-regular fa-envelope"></i>aurora@aurora.com
-</p>
-
-          <div>
+                At Meditate with Aurora, we offer gentle one-on-one meditation and breathing
+                sessions designed to help you unwind, reconnect, and find balance in the middle
+                of everyday stress.
+              
+            </p>
             </div>
+            <div class="about-container-two">
+            <p>
+              Whether you’re new to meditation or looking to deepen your practice, each session
+              is personalized to your needs — guiding you through calming techniques that
+              restore peace to your mind, body, and spirit.
+            </p>
+
+         
+          <img
+            src="assets/images/meditation.jpg"
+            class="about-image"
+            alt="Person meditating in a peaceful environment"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="mt-auto">
+      <div class="container text-center">
+        <h3 class="display-7 sub-heading-color mt-2">Contact Information</h3>
+
+        <address>
+          <i class="fa-solid fa-location-dot"></i> Aurora<br />
+          77 Aurora Street, Aurora City, United Kingdom<br />
+        </address>
+
+        <p>
+          <i class="fa-solid fa-phone"></i> 091 234 567 78<br />
+          <i class="fa-regular fa-envelope"></i> aurora@aurora.com
+        </p>
+
         <div class="social-links my-4">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="https://www.instagram.com/"  target="_blank" rel="noopener" aria-label="visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.youtube.com/"  target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-          
-          </div>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube channel (opens in a new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
       </div>
-    </div>
-     
     </footer>
 
-    <!--Bootstrap JS-->
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Font Awesome Kit-->
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/3817223a3f.js"
       crossorigin="anonymous"
     ></script>
-
   </body>
 </html>
