@@ -70,14 +70,22 @@ p {
   filter: brightness(80%); 
   margin-top: 0rem;
 }
+
 /*text over picture*/
+#meditation {
+  text-decoration:underline;
+  text-underline-offset: 6px; 
+  text-decoration-thickness: 1px;
+  text-transform: uppercase;
+}
+
 .hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
-  background-color: rgba(0, 0, 0, 0.4); 
+  background-color: rgba(0, 0, 0, 0.6); 
   color: white;
   padding: 1.5rem 2rem;
   border-radius: 15px;
@@ -95,6 +103,22 @@ p {
   font-family: var(--secondary-font);
   font-size: 1.2rem;
   color: white;
+}
+/*Buttons*/
+.custom-button-filled {
+border: 0.5px solid var(--highlight-color-light);
+background-color: var(--secondary-color);
+color:black;
+margin-left: 2px;
+margin-right: 2px;}
+.custom-button-filled:hover {
+
+}
+/*About section*/
+#about {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: auto;
 }
 /*Footer*/
 #contact {
