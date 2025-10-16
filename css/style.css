@@ -115,21 +115,17 @@ p {
 .about-container-one {
   display: flex;
   justify-content: space-between;
-  text-align: left;
+text-align: left;
   max-width: 1300px;
   margin: 0 auto;
   padding: 40px 0;
   gap: 60px;
 }
-.about-container-one p {
-  
-
-}
 
 .about-container-two {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  text-align: right;
   max-width: 1300px;
   margin: 0 auto;
   padding: 40px 0;
@@ -189,6 +185,13 @@ p {
   align-self: center;
   width: auto;
   min-width: 120px;
+}
+.spotify-section {
+  width: 365px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto 2rem;
 }
 
 /*Buttons*/
@@ -313,7 +316,27 @@ form .form-select:focus {
 }
 
 /*media queryy*/
-@media screen and (max-width: 992px) {
+
+@media screen and (min-width: 375px) { 
+  .hero-text{
+   
+    padding: 1rem;
+    max-width: 450%;
+  }
+  .hero-text p{
+  font-size: 12px;
+}
+  .hero-text h1{
+  font-size: 20px;
+}
+#meditation {
+  text-decoration: none; 
+}
+}
+
+
+
+@media screen and (min-width: 992px) {
   .hero {
     height: 70vh;
   }
@@ -321,8 +344,9 @@ form .form-select:focus {
     padding: 2rem;
     max-width: 90%;
   }
-  .hero-text h1 {
+  #meditation {
     font-size: 2rem;
+    
   }
   .hero-text p {
     font-size: 1rem;
