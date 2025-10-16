@@ -7,7 +7,7 @@
       name="description"
       content="Meditate with Aurora, learn new breathing techniques and meditations with our professionals."
     />
-    <title>Aurora | Home</title>
+    <title>Aurora | Book a session</title>
 
     <!--Favicons made with favicon.co-->
     <link
@@ -61,19 +61,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="index.html#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="index.html#contact">Contact</a>
               </li>
                <li class="nav-item">
                 <a class="nav-link" href="team.html">Team</a>
               </li>
                <li class="nav-item">
-                <a href="booking.html" class="btn custom-button-filled">Booking</a>
+                <a href="booking.html" aria-current="page" class="btn custom-button-filled">Booking</a>
               </li>
             </ul>
           </div>
@@ -81,40 +81,66 @@
       </nav>
  
 
-    <!--Main content-->
-    <main>
-      <section class="hero">
-        <img
-      src="assets/css/images/yoga.jpg"
-      alt="Join us for meditation"
-    />
-      <div class="hero-text">
-    <h1 id="meditation">Meditate with Aurora</h1>
-    <p><strong>Breathe deeply,<br> let go,<br> and allow our team to guide you <br>toward inner peace and<br> deep relaxation.</strong></p>
-  <a href="booking.html" class="btn custom-button-outline">Booking</a>  
-  </div>
-  
-    </section>
-</main>
-<!--About us section-->
-<section id="about">
-  <div class="about-container">
-    <img src="assets/css/images/breath.jpg" class="about-image" alt="Deep breathing techniques"/>
-    <div class="about-text">
-    <h2>About us</h2>
-    <p>
-      <strong>
-        At Meditate with Aurora, we offer gentle one-on-one meditation and breathing sessions designed to help you unwind, reconnect, and find balance in the middle of everyday stress.
-    </strong>
-  </p>
-    <br>
-<p>Whether you’re new to meditation or looking to deepen your practice, each session is personalized to your needs — guiding you through calming techniques that restore peace to your mind, body, and spirit.
-</p>
-</div>
-<img src="assets/css/images/meditation.jpg" class="about-image" alt="We offer deep meditation techniques">  
-</div>
-  </section>
+<!-- Booking inquiry -->
+<main>
+  <section id="booking" class="container section py-5">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8">
 
+        <h2 class="booking mb-4 mt-4">Book a Call</h2>
+        <p class="mb-5">
+          <strong>Take a moment for yourself.</strong> <br>
+          Book a personalized meditation or breathwork session with our teachers — 
+          or get in touch to discover which practice best fits your needs.
+        </p>
+
+        <!-- Form itself -->
+        <h3 class="booking mb-4">Booking</h3>
+        <form action="success.html" method="GET">
+
+          <div class="row mb-3">
+            <div class="col-12 col-lg-6">
+              <label for="name" class="form-label">Name</label>
+              <input class="form-control" id="name" name="name" type="text" required>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <label for="phone" class="form-label">Phone number</label>
+              <input class="form-control" id="phone" name="phone" type="number" required>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-12 col-lg-6">
+              <label for="email" class="form-label">Email address</label>
+              <input class="form-control" id="email" placeholder="name@example.com" name="email" type="email" required>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <label for="teacher" class="form-label">Choose your guide</label>
+              <select id="teacher" class="form-select" name="teacher-type" required>
+                <option value="" selected>Select</option>
+                <option value="eva">Eva</option>
+                <option value="mark">Mark</option>
+                <option value="sofia">Sofia</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Your message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+          </div>
+
+          <div class="text-center mt-4">
+            <button type="submit" class="btn custom-button-filled">Submit</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
 <!--footer-->
    <footer id="contact" class="mt-auto">
     <div class="container">

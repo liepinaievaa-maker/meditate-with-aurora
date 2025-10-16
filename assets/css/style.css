@@ -157,6 +157,15 @@ p {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
+/*Booking section*/
+form .form-control,
+form .form-select {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
 /*Buttons*/
 .custom-button-filled {
 border: 0.5px solid var(--highlight-color-light);
