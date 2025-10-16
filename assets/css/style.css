@@ -159,6 +159,9 @@ p {
 }
 
 /*Booking section*/
+.booking-1 {
+  margin-top: 5rem;
+}
 form .form-control,
 form .form-select {
   border-radius: 8px;
