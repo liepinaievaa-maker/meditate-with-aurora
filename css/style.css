@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding-top: 57px;
   margin: 0;
 }
 
@@ -28,7 +29,9 @@ p {
   margin-top: 0;
   margin-bottom: 8px;
 }
-
+.about-text {
+  padding-top: 5rem;
+}
 /*Navbar*/
 #navbar {
   background-color: var(--primary-color);
@@ -154,9 +157,6 @@ text-align: left;
 }
 
 /*Team cards*/
-.team-section {
-  margin-top: 90px;
-}
 
 .team {
   text-align: center;
@@ -256,7 +256,6 @@ margin-top: 500px;
 #booking {
   padding: 80px 0;
   border-radius: 16px;
-  margin-top: 4rem;
 }
 
 .booking {
@@ -500,7 +499,6 @@ max-width: 850px;
 /*booking section*/
 #booking {
     padding: 60px 1rem;
-    margin-top: 2rem; 
   }
 .booking-1 {
   margin-top: 10rem;
@@ -625,7 +623,6 @@ margin-top: 500px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
 }
 .team-section {
   width: 100%;
@@ -634,7 +631,6 @@ margin-top: 500px;
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  padding: 2rem 1rem; 
 }
 
 
@@ -674,9 +670,7 @@ margin-top: 500px;
   flex-direction: column;
   margin: 0 auto 2rem;
 }
-.booking-1 {
-  margin-top: 10rem;
-}
+
 .form {
   width: fit-content;
   height: fit-content;
