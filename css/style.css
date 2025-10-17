@@ -29,9 +29,7 @@ p {
   margin-top: 0;
   margin-bottom: 8px;
 }
-.about-text {
-  padding-top: 5rem;
-}
+
 /*Navbar*/
 #navbar {
   background-color: var(--primary-color);
