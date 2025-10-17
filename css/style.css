@@ -319,7 +319,9 @@ form .form-select:focus {
 
 @media screen and (min-width: 375px) { 
   .hero-text{
-   
+   left: 40%;
+   top: 40%;
+    width: 60%;
     padding: 1rem;
     max-width: 450%;
   }
@@ -332,6 +334,41 @@ form .form-select:focus {
 #meditation {
   text-decoration: none; 
 }
+.hero img {
+   object-position: 75% center; ;
+}
+/*About*/
+ #about {
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  .about-container-one,
+  .about-container-two {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
+  .about-image {
+    width: 80%;
+    max-width: 280px;
+    border-radius: 50px;
+  }
+  .aboutimg p,
+  .about-container-two p {
+    background-color: rgb(from var(--secondary-color) r g b / 0.2);
+    width: 90%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 
