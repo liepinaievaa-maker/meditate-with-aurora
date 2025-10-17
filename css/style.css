@@ -54,7 +54,11 @@ p {
   word-spacing: 6px;
   letter-spacing: 0.5px;
 }
-
+#navbar .nav-link:hover {
+  color: var(--secondary-color);
+  word-spacing: 7px;
+  letter-spacing: 0.6px;
+}
 .nav-item {
   font-family: var(--secondary-font);
 }
@@ -75,9 +79,7 @@ p {
 }
 
 #meditation {
-  text-decoration: underline;
-  text-underline-offset: 6px;
-  text-decoration-thickness: 1px;
+  text-decoration-thickness: 2px;
   text-transform: uppercase;
 }
 
@@ -241,20 +243,18 @@ transition: background-color 0.3s ease, transform 0.2s ease;
 
 /*booking page*/
 #booking {
-  background-color: #f8f9f5;
   padding: 80px 0;
   border-radius: 16px;
+  margin-top: 4rem;
 }
 
 .booking {
   color: var(--primary-color);
-  text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 #booking p {
-  color: #444;
   font-size: 1.05rem;
   line-height: 1.6;
 }
@@ -419,7 +419,7 @@ form .form-select:focus {
   background-color: var(--secondary-color);
   color: black;
   padding: none;
-  border-radius: 2px;
+  border-radius: 4px;
   width: auto;
 }
 
@@ -534,7 +534,7 @@ form .form-select {
     max-width: 450%;
   }
   .hero-text p{
-  font-size: 12px;
+  font-size: 14px;
 }
   .hero-text h1{
   font-size: 20px;
@@ -648,22 +648,123 @@ form .form-select {
   height: fit-content;
   padding: auto;
 }
+/*success*/
+#success {
+  margin-top: 7rem;
+}
+.lead {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.custom-button-outline {
+  width: auto;
+  background-color: white;
+  size-adjust: inherit;
+  color: black;
+}
+}
 }
 
 @media screen and (min-width: 992px) {
-  .hero {
-    height: 70vh;
-  }
-  .hero-text {
-    padding: 2rem;
-    max-width: 90%;
-  }
-  #meditation {
-    font-size: 2rem;
-    
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
+  /*Herrro*/
+.hero img {
+  object-position: 80% center;
 }
+.hero-text {
+   left: 35%;
+   top: 35%;
+    width: 40%;
+    padding: 1rem;
+    max-width: 450%;
+  }
+  .hero-text p{
+  font-size: 20px;
+}
+  .hero-text h1{
+  font-size: 28px;
+}
+
+/*About*/
+ #about {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .about-container-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: left;
+  margin-left: 2.5rem;
+  }
+  .about-container-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: right;
+  margin-right: 2.5rem;
+  }
+  .about-image {
+    width: 45%;
+    max-width: 280px;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  .about-content p,
+  .about-container-two p {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+  }
+  /*Team*/
+ .card .btn {
+  align-self: center;
+  width: auto;
+  min-width: 120px;
+}
+.spotify-section {
+  width: 992px;
+  max-width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto 2rem;
+}
+.spotify-section iframe {
+    height: 280px;
+  }
+.sub-heading {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+/*success*/
+#success {
+  margin-top: 7rem;
+}
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.custom-button-outline {
+  width: auto;
+  background-color: white;
+  size-adjust: inherit;
+  color: black;
+}
+}
+@media screen and (min-width: 1200px) { 
+
+}
+
 
