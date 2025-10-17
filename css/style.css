@@ -451,9 +451,6 @@ max-width: 850px;
 .card-title {
   font-size: 1.8rem;
 }
-.container {
-}
-
 .card {
   width: 100%;
   max-width: 550px;
@@ -523,6 +520,7 @@ form .form-select {
   color: black;
 }
 }
+
 /*media 480px*/
 @media screen and (max-width: 480px) { 
   #navbar {
@@ -554,9 +552,10 @@ form .form-select {
     padding: 0 1rem;
   }
 
-  .about-text h2 {
+  h2 {
     font-size: 1.3rem;
     margin-bottom: 0.8rem;
+    margin-top: 25px;
   }
   .about-container-one,
   .about-container-two {
@@ -604,6 +603,7 @@ form .form-select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
 }
 .team-section {
   width: 100%;
