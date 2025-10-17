@@ -529,9 +529,6 @@ form .form-select {
     height: 62px;
     margin-bottom: 8rem;
   }
-.container {
-  margin-bottom: 2rem;
-}
   .hero-text{
    left: 40%;
    top: 40%;
@@ -783,6 +780,7 @@ form .form-select {
   color: black;
 }
 }
+/*1200px media*/
 @media screen and (min-width: 1200px) { 
   .hero-text { 
   position: absolute;
@@ -800,7 +798,48 @@ form .form-select {
 #card {
   margin-top: 3rem;
 }
+/*About*/
+ #about {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
 
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .about-container-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: left;
+  margin-left: 2.5rem;
+  }
+  .about-container-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: right;
+  margin-right: 2.5rem;
+  }
+  .about-image {
+    width: 45%;
+    max-width: 280px;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  .about-content p,
+  .about-container-two p {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 
