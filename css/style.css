@@ -299,18 +299,7 @@ form .form-select:focus {
 #message {
   resize: none;
 }
-/* Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
 
-/* Root variables*/
-:root {
-  --primary-font: 'Instrument Sans', sans-serif;
-  --secondary-font: 'Quicksand', cursive;
-  --primary-color: #3a5532;            /* dark green */
-  --secondary-color: #a9e2bc;          /* lighter green */
-  --highlight-color: #4e511a;          /* dark yellow-green */
-  --highlight-color-light: #f3f99f;    /* light yellow */
-}
 
 /* Global styles*/
 body {
