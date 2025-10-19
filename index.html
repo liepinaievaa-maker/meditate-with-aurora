@@ -88,7 +88,17 @@
     <main>
       <!-- Hero Section -->
       <section class="hero">
-        <img src="assets/images/yoga.webp" alt="Join us for meditation" class="img-fluid"/>
+        <img
+  src="assets/images/yoga-800.webp"
+  srcset="
+    assets/images/yoga-800.webp 800w,
+    assets/images/yoga-1200.webp 1200w,
+    assets/images/yoga-1920.webp 1920w"
+  sizes="100vw"
+  alt="Join us for meditation"
+  fetchpriority="high"
+  class="img-fluid hero-img"
+/>
 
         <div class="hero-text">
           <h1 id="meditation">Meditate with Aurora</h1>
@@ -109,7 +119,7 @@
             <h2>About Us</h2>
              <div class="about-container-one">
           <img
-            src="assets/images/breath.jpg"
+            src="assets/images/breath_1.webp"
             class="about-image"
             alt="Woman practicing deep breathing"
             
@@ -127,7 +137,7 @@
             </div>
             <div class="about-container-two">
                <img
-            src="assets/images/meditation.webp"
+            src="assets/images/meditation_small.webp"
             class="about-image"
             alt="Person meditating in a peaceful environment"
           />
