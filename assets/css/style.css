@@ -30,14 +30,9 @@ section {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 2rem 2rem;
+  padding: 2rem;
   box-sizing: border-box;
   position: relative;
-}
-.hero {
-  max-width: none;
-  margin: 0;
-  padding: 0;
 }
 /*Hero section*/ 
 .hero {
@@ -67,7 +62,7 @@ section {
 .hero-text {
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
   background-color: rgba(0, 0, 0, 0.7);
@@ -76,7 +71,6 @@ section {
   border-radius: 30px;
   max-width: 500px;
   width: 90%;
-  box-sizing: border-box;
 }
 
 .hero-text h2 {
@@ -146,14 +140,16 @@ p {
 
 /*About section*/
 #about {
-padding: 1rem 1rem;
-text-align: center;
-margin-top: 0.5rem;
+padding: 3rem 1rem;
+text-align: left;
+margin-top: 0 auto;
+width: 100%;
 }
 #about h3 {
   font-size: 3rem;
-  color: var(--primary-color) ;
-  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
   letter-spacing: 1px;
 }
 
@@ -161,11 +157,12 @@ margin-top: 0.5rem;
 .about-container-two {
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto 5rem auto;
-  padding: 2rem;
-  gap: 3rem;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto 4rem auto;
+  padding: 0 2rem;
+  gap: 2rem;
+  width: 100%;
 }
 
 .about-container-two {
@@ -173,9 +170,10 @@ flex-direction: row-reverse;
 }
 
 .about-image {
-  width: 100%;
+  flex: 1;
+  width: 45%;
   max-width: 400px;
-  border-radius: 25px;
+  border-radius: 28px;
   object-fit: cover;
 }
 
@@ -183,11 +181,12 @@ flex-direction: row-reverse;
   flex: 1;
   font-size: 1.1rem;
   text-align: left;
-  max-width: 1600px;
+  max-width: 850px;
   width: 100%;
 }
-
-
+.about-content p {
+  margin-bottom: 1rem;
+}
 
 /*Team cards*/
 
@@ -248,16 +247,12 @@ transition: background-color 0.3s ease, transform 0.2s ease;
   background-color: transparent;
   color: white;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
 }
 
 .custom-button-outline:hover {
-  margin-top: 1rem;
   border: 2px solid var(--secondary-color);
   background-color: var(--primary-color);
   color: #fff;
-border-radius: 8px;
-  transition: background-color 0.3s ease;
 }
 
 .custom-button-outline-white {
@@ -266,136 +261,6 @@ border-radius: 8px;
   background-color: transparent;
   color: black;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.custom-button-outline-white:hover {
-  background-color: var(--highlight-color-light);
-  color: black;
-}
-.custom-button-success {
-padding: 15px 25px;
-text-decoration: none;
-border: 2px solid var(--highlight-color-light);
-background-color: transparent !important;
-color: black !important;
-border-radius: 8px;
-transition: background-color 0.3s ease;
-margin: 500px auto  7rem 0;
-}
-
-/*booking page*/
-#booking {
-  padding: 80px 0;
-  border-radius: 16px;
-}
-
-.booking {
-  color: var(--primary-color);
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-#booking p {
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-form {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-form .form-control,
-form .form-select {
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-form .form-control:focus,
-form .form-select:focus {
-  border-color: var(--secondary-color);
-  box-shadow: 0 0 6px rgba(169, 226, 188, 0.4);
-  outline: none;
-}
-
-.form-label {
-  font-weight: 500;
-  color: var(--primary-color);
-  margin-bottom: 0.4rem;
-}
-
-#message {
-  resize: none;
-}
-
-
-/*Team cards*/
-
-.team {
-  text-align: center;
-  color: var(--primary-color);
-  margin: 5px 0;
-}
-
-/* Cards */
-.team-cards {
-  gap: 4rem;
-}
-
-.card {
-  border: none;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-}
-
-.card-img-top {
-  height: 300px;
-  object-fit: cover;
-}
-
-.card .btn {
-  align-self: center;
-  width: auto;
-  min-width: 120px;
-}
-.spotify-section {
-  width: 365px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto 2rem;
-}
-
-/*Buttons*/
-.custom-button-filled {
-  border: 0.5px solid var(--highlight-color-light);
-  background-color: var(--secondary-color);
-  color: black;
-  padding: 8px 16px;
-  border-radius: 8px;
- font-size: 1rem;
-transition: background-color 0.3s ease, transform 0.2s ease;
-  width: auto;
-}
-
-.custom-button-filled:hover {
-  background-color: var(--highlight-color-light);
-  transform: translateY(-2px);
-}
-
-
-
-.custom-button-outline-white {
-  margin-top: 1rem;
-  border: 3px solid var(--secondary-color);
-  background-color: transparent;
-  color: black;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
 }
 
 .custom-button-outline-white:hover {
@@ -407,17 +272,16 @@ display: inline-block;
 padding: 15px 25px;
 text-decoration: none;
 border: 2px solid var(--highlight-color-light);
-background-color: transparent !important;
-color: black !important;
+background-color: transparent;
+color: black;
 border-radius: 8px;
-transition: background-color 0.3s ease;
-margin: 2rem auto
+margin: 2rem auto;
 }
 .custom-button-success:hover {
 background-color: var(--highlight-color-light);
 border: 2px solid black;
 color: black;
-transform: translateY(-2px) ;
+transform: translateY(-2px);
 }
 
 /*booking page*/
@@ -468,6 +332,8 @@ form .form-select:focus {
 #message {
   resize: none;
 }
+
+
   /*success*/
  #success {
   margin: 4rem auto;
@@ -551,7 +417,7 @@ form .form-select:focus {
   border: 0.5px solid var(--highlight-color-light);
   background-color: var(--secondary-color);
   color: black;
-  padding: none;
+  padding: 0;
   border-radius: 4px;
   width: auto;
 }
@@ -561,6 +427,30 @@ form .form-select:focus {
   transform: translateY(-2px);
   width: auto;
 }
+/*About section*/
+.about-container-one,
+.about-container-two {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.about-image {
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+}
+.about-content {
+  max-width: 90%;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
 /* Cards */
 #card {
   display: flex;
@@ -573,7 +463,7 @@ form .form-select:focus {
   gap: 2rem;
   width: 100%;
 max-width: 850px;
- margin: 0 center;
+ margin: 0 auto;
  align-items: center;
  justify-content: center;
  text-align: center;
@@ -639,8 +529,6 @@ form .form-select {
 /*success*/
  #success {
   margin-top: 2rem;
-  top: 80%;
-  left: 80%;
   text-align: left;
   background-color: var(--secondary-color);
   color: black;
@@ -667,7 +555,7 @@ form .form-select {
    top: 40%;
     width: 60%;
     padding: 1rem;
-    max-width: 450%;
+    max-width: 450px;
   }
   .hero-text p{
   font-size: 14px;
@@ -679,9 +567,20 @@ form .form-select {
   text-decoration: none; 
 }
 .hero img {
-   object-position: 75% center; ;
+   object-position: 75% center; 
+}
+/*about section*/
+.about-image {
+  width: 100%;
+  max-width: 400px;
 }
 
+.about-content {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+/*Buttons on smaller screens*/
   .custom-button-filled {
   align-items: center;
   border: 0.5px solid var(--highlight-color-light);
@@ -701,13 +600,11 @@ form .form-select {
 padding: 10px 18px;
 text-decoration: none;
 border: 2px solid var(--highlight-color-light);
-background-color: transparent !important;
-color: black !important;
+background-color: transparent;
+color: black;
 border-radius: 8px;
-transition: background-color 0.3s ease;
-margin-top: 500px;
 }
-/* Cards */
+/*Cards*/
 .row {
   align-items: center;
 }
@@ -767,12 +664,12 @@ margin-top: 500px;
 .form {
   width: fit-content;
   height: fit-content;
-  padding: none;
+  padding: 0;
 }
 #form {
   width: 250px;
   height: fit-content;
-  padding: auto;
+  padding: 0;
 }
 /*success*/
  #success {
@@ -804,14 +701,10 @@ margin: 1rem auto 0 auto;
 .hero img {
   object-position: 80% center;
 }
-/*.hero-text {
-  position: absolute;
-   left: 35%;
-   top: 50%;
-    width: 40%;
-    padding: 2rem 3rem;
-    max-width: 700px;
-  } */
+.hero-text {
+   padding: 2rem;
+    max-width: 400px;
+  }
   .hero-text p{
   font-size: 20px;
 }
@@ -832,15 +725,16 @@ padding: 1rem;
   }
   .about-content {
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
   }
 
   .about-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
   }
   #about {
-    padding: 2rem 2rem;
+    padding: 2rem;
     margin-top: 2rem;
   }
   
@@ -884,21 +778,9 @@ padding: 12px 24px;
 font-size: 0.95rem;
 }
 }
+
 /*1200px media*/
 @media screen and (min-width: 1200px) { 
-  /*.hero-text { 
-  position: absolute;
-  top: 50%;
-  left: 32%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 4rem 6rem;
-  border-radius: 40px;
-  max-width: 600px;
-  }
-  */
 #card {
   margin-top: 3rem;
 }
@@ -906,8 +788,6 @@ font-size: 0.95rem;
   /*success*/
  #success {
   margin-top: 6rem;
-  top: 80%;
-  left: 80%;
   text-align:center;
   background-color: var(--secondary-color);
   color: black;
@@ -916,30 +796,5 @@ font-size: 0.95rem;
   max-width: 700px;
 }
 
-/*Footer*/
-#contact {
-  background-color: var(--primary-color);
-  color: white;
-  margin-top: 2rem;
-}
-
-.sub-heading-color {
-  color: white;
-}
-
-#contact i {
-  margin-right: 6px;
-  color: var(--highlight-color-light);
-}
-
-#contact .social-links i {
-  color: var(--highlight-color-light);
-  font-size: 2rem;
-  transition: color 0.2s ease;
-}
-
-#contact .social-links i:hover {
-  color: var(--secondary-color);
-}
 
 }
