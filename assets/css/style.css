@@ -804,8 +804,3 @@ font-size: 0.95rem;
   max-width: 700px;
 }
 }
-/*Font Awesome improvement*/
-@font-face {
-  font-family: "Font Awesome 6 Free";
-  font-display: swap;
-}
