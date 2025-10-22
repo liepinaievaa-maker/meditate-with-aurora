@@ -390,7 +390,7 @@ form .form-select:focus {
     transform: translate(-50%, -45%);
     max-width: 420px;
     padding: 2rem 2.5rem;
-    text-align: center;
+    text-align: left;
   }
 
   .hero-text h2 {
@@ -592,6 +592,7 @@ form .form-select {
     margin-bottom: 1rem;
   }
   .hero-text{
+    text-align: left;
    left: 40%;
    top: 40%;
     width: 60%;
