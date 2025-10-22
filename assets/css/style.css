@@ -739,18 +739,28 @@ margin: 1rem auto 0 auto;
 
 @media screen and (min-width: 992px) {
   /*Herrro*/
+  .hero {
+    height: 100vh;
+  }
 .hero img {
   object-position: 80% center;
 }
 .hero-text {
-   padding: 2rem;
-    max-width: 400px;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3rem 4rem;
+  border-radius: 30px;
+  max-width: 500px;
+  width: 90%;
   }
-  .hero-text p{
-  font-size: 20px;
+  .hero-text p {
+  font-size: 1.3rem;
 }
-  .hero-text h2{
-  font-size: 28px;
+  .hero-text h2 {
+  font-size: 3rem;
 }
 
 /*About*/
