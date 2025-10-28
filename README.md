@@ -42,6 +42,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
    * The navigation bar features the Aurora logo centered at the top and a hamburger menu on the right.
    * When the hamburger icon is clicked, the menu expands into a vertical dropdown showing all links in the same order.
    * The dropdown background matches the primary green color, ensuring brand consistency and readability.
+
 ![Navbar Closed phone](documentation/navbar-phone-closed.PNG)
 
 ![Navbar Opened phone](documentation/navbar-phone-opened.PNG)
@@ -54,6 +55,17 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
   - Encourages users to book a session through the prominent call-to-action buttons.
   - Creates a sense of calm and connection through visual design, warm color palette, and imagery.
 ![Aurora Mainpage](documentation/fullscreenshot.png)
+---
 
 + #### Hero Section
+ + The Hero Section immediately captures the visitor’s attention with a full-screen background image representing meditation and tranquility.
+  + Features:
+    + A large hero image covering the entire viewport, set with object-fit: cover to adapt smoothly to all screen sizes.
+    + The company name — “Meditate with Aurora”.
+    + A short description encouraging visitors to breathe, let go, and find inner peace.
+    + A Booking button that leads directly to the booking page for easy access.
+ + A subtle brightness filter applied to the background for better text readability.
+ + The hero content is centered both vertically and horizontally, ensuring focus and simplicity.
+![Homepage Hero Section](documentation/hero.PNG)
+---
 
