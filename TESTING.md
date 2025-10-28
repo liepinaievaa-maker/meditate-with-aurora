@@ -1,4 +1,4 @@
-+ ## Testing
+ ## Testing
 
 + Extensive testing was carried out throughout the development process to ensure that the Aurora Meditation website functions correctly, is visually consistent, and provides a smooth user experience across different devices and browsers.
 
