@@ -1,4 +1,4 @@
-/*![my logo will go here]*/
+![Aurora logo](documentation/logo.PNG)
 ---
 
 # *Meditate with Aurora*
@@ -12,4 +12,10 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 
 ---
 
-## User Stories
+## Features
+
+
+### Existing Features
+---
+
+##
