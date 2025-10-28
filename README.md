@@ -173,3 +173,25 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 
 ![Success page](documentation/success.PNG)
 ---
++ ### Features Left to Implement for Future
+
++ Testimonials Section
+  + Add a dedicated section where Aurora’s clients can share their feedback and stories about their meditation experiences. This will help build trust and showcase the positive impact of Aurora’s sessions.
+
++ Interactive Schedule Calendar
+  + Implement a live booking calendar that shows available dates and time slots, allowing users to book their preferred session directly.
+
++ Audio Library Page
+  + Develop a dedicated section where users can listen to Aurora’s guided meditations and relaxation music directly from the website, without needing to access external platforms.
+
++ Custom Navigation Bar (Without Bootstrap)
+  + In the future, I would like to rebuild the navigation bar completely from scratch instead of relying on Bootstrap’s default components.
+  + The Bootstrap navbar caused several styling and responsiveness issues during development, especially when adjusting for smaller screens.
+  + Creating a fully custom version will give me more design control, simplify the structure, and ensure consistent behavior across all devices.
+
++ Custom Booking Form Implementation
+  + The current booking form uses Bootstrap elements for layout and styling.
+  + In the future, I plan to design and code the booking section independently — with fully customized form fields, validation, and a smoother user flow.
+  + Building it without Bootstrap will help eliminate layout conflicts and make the section visually more aligned with Aurora’s calming and minimal design style.
+---
+
