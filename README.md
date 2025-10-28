@@ -8,7 +8,7 @@ Visitors can easily contact the company, meet the instructors, and even listen t
 
 The site can be accessed by this [link](https://liepinaievaa-maker.github.io/meditate-with-aurora/index.html)
 
-/*![my mockup will be here]*/
+![Mock up](documentation/all-devices-white.png)
 
 ---
 
