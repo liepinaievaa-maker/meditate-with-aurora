@@ -101,7 +101,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 ![About us Section on mobile devices 2nd view](documentation/about-us-mobile-2.PNG)
 ---
 
-+ #### Footer
++ #### The Footer
 
 + The Footer is displayed consistently across all pages, keeping contact details and social links easily accessible.
 
@@ -133,12 +133,43 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 + #### Aurora Radio Section
 
 + This section invites visitors to relax and experience Aurora’s peaceful atmosphere through music.
- + Features:
-  + Integrated Spotify player embedded directly on the page.
-  + Title “Relax with Aurora Radio” introducing the feature.
-  + Visitors can listen to curated meditation and relaxation playlists while browsing the site.
-  + Enhances the emotional connection and sensory experience of the website.
-  + Also this section is responsive across different devices.
+  + Features:
+   + Integrated Spotify player embedded directly on the page.
+   + Title “Relax with Aurora Radio” introducing the feature.
+   + Visitors can listen to curated meditation and relaxation playlists while browsing the site.
+   + Enhances the emotional connection and sensory experience of the website.
+   + Also this section is responsive across different devices.
 
 ![Radio section](documentation/radio.PNG)
+---
+
++ ### Booking page
+
++ The Booking Page provides a clear and minimal form for visitors to schedule a session.
+
+ + Features:
+   + A structured booking form with labeled input fields:
+     + Name
+     + Phone number
+     + Email address 
+     + Teacher selection dropdown (Eva, Mark, Sofia) 
+     + Message box for additional notes 
+  + Includes client-side validation through required fields and semantic input types.
+  + Clean design with a white card background, rounded corners, and soft shadow.
+  + A Submit button that leads users to the Success page.
+  + Encouraging and warm introduction text inviting users to “Take a moment for yourself.”
+
+![Booking Page](documentation/booking.PNG)
+---
+
++ ### Success page
+
++ A confirmation page thanking the user for their submission.
+
+  + Features:
+    + Large heading “Thank you!” and a message confirming that the form was successfully submitted.
+    + A Return to Home Page button leading back to the main site.
+    + Minimalist design matching the brand’s calm aesthetic.
+
+![Success page](documentation/success.PNG)
 ---
