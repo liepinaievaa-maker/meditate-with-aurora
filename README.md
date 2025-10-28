@@ -72,7 +72,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
     + A large hero image covering the entire viewport, set with object-fit: cover to adapt smoothly to all screen sizes.
     + The company name — “Meditate with Aurora”.
     + A short description encouraging visitors to breathe, let go, and find inner peace.
-    + A Booking button that leads directly to the booking page for easy access.
+    + A Booking button that leads directly to the booking page for easy access wich is also for call to action section.
 
  + A subtle brightness filter applied to the background for better text readability.
  + The hero content is centered both vertically and horizontally, ensuring focus and simplicity.
@@ -99,4 +99,46 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 ![About us Section on mobile devices 1st view](documentation/about-us-mobile-1.PNG)
 
 ![About us Section on mobile devices 2nd view](documentation/about-us-mobile-2.PNG)
+---
+
++ #### Footer
+
++ The Footer is displayed consistently across all pages, keeping contact details and social links easily accessible.
+
+ + Features:
+  * Contains Aurora’s address, phone number, and email address.
+  * Includes social media icons (Facebook, Instagram, YouTube), each opening in a new tab.
+  * The footer background color matches the primary brand color, ensuring visual harmony.
+  * Clean, centered layout provides a balanced and professional look.
+
+![Photo of Footer](documentation/footer.PNG)
+---
+
++ ### Team page
+
++ The Team page highlights the professionals behind Aurora’s meditation sessions.
+
+ + Features:
+   + Three team member cards, each including:
+   + A professional photo of the instructor.
+   + The instructor’s name and specialty.
+   + A short bio describing their experience and role in Aurora. 
+   + A Booking button linking directly to the session form.
++ Designed to build trust and connection, showing that each teacher has real experience and compassion.
++ Cards are evenly spaced and aligned using Bootstrap’s grid system, ensuring full responsiveness on all screen sizes.
+
+![Team page](documentation/team.PNG)
+---
+
++ #### Aurora Radio Section
+
++ This section invites visitors to relax and experience Aurora’s peaceful atmosphere through music.
+ + Features:
+  + Integrated Spotify player embedded directly on the page.
+  + Title “Relax with Aurora Radio” introducing the feature.
+  + Visitors can listen to curated meditation and relaxation playlists while browsing the site.
+  + Enhances the emotional connection and sensory experience of the website.
+  + Also this section is responsive across different devices.
+
+![Radio section](documentation/radio.PNG)
 ---
