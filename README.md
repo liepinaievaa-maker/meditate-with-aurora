@@ -361,5 +361,30 @@ To ensure a smooth update process:
    + Refresh your live page to view the new version.
 
 ---
+## Credits
+
+### Content
+
+ + All written content across the Aurora Meditation website (Home, Team, and Booking pages) was created and edited by me specifically for this project, only I took a inspiration from Pinterest and other websites for design on content but nothing was directly used.
+ + Some layout ideas and structure were inspired by Code Institute learning materials, which helped ensure accessibility, responsiveness, and semantic HTML practices.
+ + The navigation bar and booking form were developed using Bootstrap 5, which served as the foundation for responsive design and layout consistency.
+ + The icons used throughout the project, including the logo star and social media icons in the footer, were sourced from [Font Awesome](https://fontawesome.com/)
+ + I also made use of HTML, CSS, and [Bootstrap](https://getbootstrap.com/) documentation for troubleshooting and improving site performance.
+ ---
+
+ ### Media
+
+ + All images used on the site were sourced from [Pexels](https://www.pexels.com/) — a free and open-source image platform.
+ + Images were resized and optimized using [Squoosh](https://squoosh.app/) to reduce file size and improve Lighthouse performance scores.
+ + The website’s favicon was created using the [Favicon Generator](https://favicon.io/) for consistent branding across browsers and devices.
+ ---
+
+ ### Acknowledgments
+
+ + I would like to thank my friend, Anita Teclava, for her creative input, feedback, and encouragement throughout the design process.
+ + My sincere gratitude to my mentor, Julia Konovalova, for her invaluable advice, technical guidance, and support during the project and also for sharing her projects for insoiration for README.md, which helped me a lot to write evrything correctly.
+ + A big thank you to the Code Institute team, whose structured materials, resources, and examples were instrumental in helping me complete this project successfully.
+ ---
+
 
 
