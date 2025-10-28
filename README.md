@@ -195,3 +195,65 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
   + Building it without Bootstrap will help eliminate layout conflicts and make the section visually more aligned with Aurora’s calming and minimal design style.
 ---
 
++ ## Testing
+
++ Extensive testing was carried out throughout the development process to ensure that the Aurora Meditation website functions correctly, is visually consistent, and provides a smooth user experience across different devices and browsers.
+
++ The site has been tested manually on various screen sizes and browsers to confirm that all features work as intended and that users can easily achieve their goals — whether it’s reading about Aurora, meeting the team, or booking a session.
+
++ ### General Functionality Testing
+
+  + All navigation links across the site work correctly and lead to the intended pages or sections.
+  + The fixed navigation bar remains visible and functional during scrolling.
+  + The hero section image loads properly on all devices, with responsive text and working call-to-action button.
+  + The “About” section displays correctly with images aligned as intended and text remaining readable at all breakpoints.
+  + The “Team” page cards are responsive and visually balanced.
+  + The “Booking” page form accepts input, validates required fields, and successfully redirects to the success confirmation page.
+  + The “Success” page correctly confirms submission and links back to the homepage.
+  + Footer social media icons open in a new tab and direct users to the correct platforms.
+  + All components were also tested for proper alignment, spacing, and font rendering on both desktop and mobile devices.
+---
+
++ ### Browser and Device Compatibility
++ The project was tested on the following browsers and operating systems:
+  + Google Chrome (Desktop & Mobile)
+  + Mozilla Firefox
+  + Microsoft Edge
+  + Safari (iOS)
+
++ All pages displayed as expected on:
+  + Desktop (Full HD & 4K)
+  + Tablet (768px width)
+  + Mobile Devices (480px and smaller)
+
++ The website’s responsiveness was verified using Chrome DevTools and actual physical devices to ensure consistent layout behavior across breakpoints.
+---
++ ### Performance and Accessibility
+
++ Performance, accessibility, and best practices were tested using Google Lighthouse.
+The site scored highly in all categories, confirming that the structure, contrast ratios, and meta tags are well-optimized.
+
++ Accessibility was also reviewed manually:
+  + All images include descriptive alt attributes.
+  + Proper heading hierarchy (h1, h2, h3, etc.) is maintained across pages.
+  + Links and buttons are clearly distinguishable and include hover feedback.
+
+![Lighthouse on device main page](documentation/lighthouse-device-main-page.PNG)
+![Lighthouse on device team page](documentation/lighthouse-device-team-page.PNG)
+![Lighthouse on device booking page](documentation/lighthouse-mobile-booking.PNG)
+![Lighthouse on device success page](documentation/lighthouse-device-success-page.PNG)
+![Lighthouse on mobile main page](documentation/lighthouse-mobile-home-page.PNG)
+![Lighthouse on mobile booking page](documentation/lighthouse-mobile-booking.PNG)
+---
++ ### Validator Testing
+
++ HTML 
+  + All pages were tested using the W3C Markup Validation Service
+  + No errors or critical warnings were returned.
+
++ CSS
+  + The CSS file was validated using the W3C Jigsaw CSS Validator
+  + No errors were found in the stylesheet.
+---
+
+
