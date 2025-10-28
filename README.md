@@ -17,18 +17,22 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 
 + ### Navbar
 + #### Navigation
+
 - Positioned at the top of every page, fixed while scrolling for easy access.
 - Contains the Aurora logo on the left side, featuring the brand name with a star icon.
+
 - The right side contains navigation links that guide users through the website:
   - HOME — leads to the main landing page introducing Aurora and its mission.
   - ABOUT — scrolls smoothly to the "About Us" section on the homepage, where users can learn about Aurora’s meditation philosophy.
   - CONTACTS — scrolls to the footer with Aurora’s contact information and social media links.
   - TEAM — leads to a dedicated page introducing Aurora’s meditation instructors and option to listen to Spotify radio of meditations.
   - BOOKING — opens the booking form page where users can schedule a session.
+
 - The Booking button is visually emphasized with a soft green background and rounded edges, creating a clear call-to-action.
 - All links include hover effects, smoothly changing color for an interactive and polished user experience.
 - The navigation bar remains consistent across all pages, maintaining brand cohesion and clear site structure.
 - The navigation is clean, intuitive, and user-friendly, ensuring users can easily explore the website.
+
 ![Navbar Desktop](documentation/navbar-big-screens.PNG)
 
  The navigation is fully responsive and adapts to various screen sizes:
@@ -36,6 +40,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
     * The logo remains visible on the left.
     * Navigation links are centered below or toggle into a collapsible menu depending on screen width.
     * All elements maintain proper spacing and visibility for touch-friendly interaction.
+
 ![Navbar 768px](documentation/navbar-768.PNG)
 
  * On Mobile Devices (≤ 480px):
@@ -49,23 +54,49 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 ---
 
 + ### Homepage
+
 - Represents:
   - The main idea of the company — Aurora, a meditation and breathwork center helping people find calm and inner peace.
   - Emphasizes the core strengths of the brand — experienced teachers, personalized sessions, and peaceful guidance.
   - Encourages users to book a session through the prominent call-to-action buttons.
   - Creates a sense of calm and connection through visual design, warm color palette, and imagery.
+
 ![Aurora Mainpage](documentation/fullscreenshot.png)
 ---
 
 + #### Hero Section
+
  + The Hero Section immediately captures the visitor’s attention with a full-screen background image representing meditation and tranquility.
+
   + Features:
     + A large hero image covering the entire viewport, set with object-fit: cover to adapt smoothly to all screen sizes.
     + The company name — “Meditate with Aurora”.
     + A short description encouraging visitors to breathe, let go, and find inner peace.
     + A Booking button that leads directly to the booking page for easy access.
+
  + A subtle brightness filter applied to the background for better text readability.
  + The hero content is centered both vertically and horizontally, ensuring focus and simplicity.
+
 ![Homepage Hero Section](documentation/hero.PNG)
 ---
++ #### About Section
 
++ The About Section introduces visitors to Aurora’s philosophy and approach to meditation.
+
+ + Features:
+  + Split into two alternating content blocks:
+  + Each block contains an image and a paragraph of text.
+  + The first block introduces Aurora’s purpose and the calm, gentle environment it provides.
+  + The second block explains how sessions are personalized for each participant’s needs.
+
++ Clean, readable typography and balanced spacing make the section accessible and peaceful to read.
++ Images are rounded and responsive, maintaining their proportion on all devices.
+
+![About us Section 1st view on big screens](documentation/about-us-1.PNG)
+
+![About us Section 2nd view on big screens](documentation/about-us-2.PNG)
+
+![About us Section on mobile devices 1st view](documentation/about-us-mobile-1.PNG)
+
+![About us Section on mobile devices 2nd view](documentation/about-us-mobile-2.PNG)
+---
