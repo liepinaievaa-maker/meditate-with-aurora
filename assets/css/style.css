@@ -25,6 +25,7 @@ body {
   padding-top: 57px;
   margin: 0;
   width: 100%;
+  background-color: white;
 }
 section {
   width: 100%;
@@ -33,6 +34,7 @@ section {
   padding: 2rem;
   box-sizing: border-box;
   position: relative;
+  background-color: white;
 }
 /*Hero section*/ 
 .hero {

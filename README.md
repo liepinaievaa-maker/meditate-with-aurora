@@ -43,7 +43,17 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
    * When the hamburger icon is clicked, the menu expands into a vertical dropdown showing all links in the same order.
    * The dropdown background matches the primary green color, ensuring brand consistency and readability.
 ![Navbar Closed phone](documentation/navbar-phone-closed.PNG)
+
 ![Navbar Opened phone](documentation/navbar-phone-opened.PNG)
 ---
 
-##
++ ### Homepage
+- Represents:
+  - The main idea of the company — Aurora, a meditation and breathwork center helping people find calm and inner peace.
+  - Emphasizes the core strengths of the brand — experienced teachers, personalized sessions, and peaceful guidance.
+  - Encourages users to book a session through the prominent call-to-action buttons.
+  - Creates a sense of calm and connection through visual design, warm color palette, and imagery.
+![Aurora Mainpage](documentation/fullscreenshot.png)
+
++ #### Hero Section
+
