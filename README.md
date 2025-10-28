@@ -173,9 +173,23 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 
 ![Success page](documentation/success.PNG)
 ---
+
 ## Technologies used
 
-+
++ [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - provided the main structure and content for all pages across the website.
++ [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to style the project, add color schemes, typography, spacing, and layout adjustments.
++ [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - applied to align and organize sections neatly, keeping the layout consistent on different screen sizes.
++ [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) - used to ensure full responsiveness for desktop, tablet, and mobile devices.
++ [CSS Variables (Root)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) - created for easy color and font management throughout the entire website.
++ [Bootstrap 5](https://getbootstrap.com/) - used mainly for the navigation bar, responsive grid layout, and booking form elements.
++ [Font Awesome](https://fontawesome.com/) - provided all icons used on the site, including the star in the logo and social media icons in the footer.
++ [Favicon Generator](https://favicon.io/) - used to create the custom favicon for consistent branding across browsers and devices.
++ [Squoosh](https://squoosh.app/) - used to compress and resize images, improving loading time and Lighthouse performance.
++ [Git](https://git-scm.com/) - used for version control to manage updates and track all project changes.
++ [GitHub](https://github.com/) - used to store the project’s repository and host the live site via GitHub Pages.
++ [Visual Studio Code](https://code.visualstudio.com/) - used as the main development environment for writing and editing code.
++ [Code Institute](https://codeinstitute.net/) course materials and examples were used as guidance for building structure, accessibility, and responsive design.
+
 ---
 ## Design
 
@@ -255,7 +269,9 @@ To ensure a smooth update process:
 
 ### Content
 
- + All written content across the Aurora Meditation website (Home, Team, and Booking pages) was created and edited by me specifically for this project, only I took a inspiration from Pinterest and other websites for design on content but nothing was directly used.
+ + Most of written content across the Aurora Meditation website (Home, Team, and Booking pages) was created and edited by me specifically for this project and as well: 
+   + Some text structure, proofreading, and section descriptions were generated and refined with the help of [ChatGPT by OpenAI](https://chatgpt.com/) to improve clarity and consistency, especially for READ.me.
+
  + Some layout ideas and structure were inspired by Code Institute learning materials, which helped ensure accessibility, responsiveness, and semantic HTML practices.
  + The navigation bar and booking form were developed using Bootstrap 5, which served as the foundation for responsive design and layout consistency.
  + The icons used throughout the project, including the logo star and social media icons in the footer, were sourced from [Font Awesome](https://fontawesome.com/)
