@@ -144,7 +144,7 @@ p {
 #about {
 padding: 3rem 1rem;
 text-align: left;
-margin-top: 0 auto;
+margin-top: 0;
 width: 100%;
 }
 #about h3 {

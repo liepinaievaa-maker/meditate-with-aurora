@@ -248,7 +248,7 @@ The site scored highly in all categories, confirming that the structure, contras
 + ### Validator Testing
 
 + HTML 
-  + All pages were tested using the W3C Markup Validation Service
+  + All pages were tested using the [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliepinaievaa-maker.github.io%2Fmeditate-with-aurora%2Findex.html)
   + No errors or critical warnings were returned.
 
 + CSS
