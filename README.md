@@ -252,8 +252,10 @@ The site scored highly in all categories, confirming that the structure, contras
   + No errors or critical warnings were returned.
 
 + CSS
-  + The CSS file was validated using the W3C Jigsaw CSS Validator
-  + No errors were found in the stylesheet.
+  + The CSS file was validated using the [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fliepinaievaa-maker.github.io%2Fmeditate-with-aurora%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=el)
+  + The stylesheet has no errors, only minor warnings about CSS variables and vendor prefixes (which are normal and acceptable in modern web design).
 ---
+
+* ### Unfixed Bugs
 
 
