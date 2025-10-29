@@ -141,6 +141,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
    + Also this section is responsive across different devices.
 
 ![Radio section](documentation/radio.PNG)
+
 ---
 
  ### Booking page
@@ -160,6 +161,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
   + Encouraging and warm introduction text inviting users to “Take a moment for yourself.”
 
 ![Booking Page](documentation/booking.PNG)
+
 ---
 
  ### Success page
@@ -172,6 +174,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
     + Minimalist design matching the brand’s calm aesthetic.
 
 ![Success page](documentation/success.PNG)
+
 ---
 
 ## Technologies used
@@ -188,13 +191,44 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
 + [Git](https://git-scm.com/) - used for version control to manage updates and track all project changes.
 + [GitHub](https://github.com/) - used to store the project’s repository and host the live site via GitHub Pages.
 + [Visual Studio Code](https://code.visualstudio.com/) - used as the main development environment for writing and editing code.
++ [Emmet](https://docs.emmet.io/cheat-sheet/) was used within VS Code to speed up the HTML and CSS workflow, allowing faster and more efficient coding through shorthand syntax.
 + [Code Institute](https://codeinstitute.net/) course materials and examples were used as guidance for building structure, accessibility, and responsive design.
 
 ---
+
 ## Design
 
-+ 
---
+### Color Scheme
+
++ The color palette for the Aurora website was carefully chosen to reflect calmness, balance, and a sense of natural harmony — values at the heart of meditation and breathwork.
+
+ + Dark Green (#3a5532) was used as the primary color throughout the site to symbolize grounding, nature, and emotional stability. It also provides strong contrast for readability.
+ + Soft Green (#a9e2bc) serves as the secondary color, creating a gentle and welcoming feeling that complements the darker tones and brings freshness to the layout.
+ + Muted Yellow-Green (#4e511a) acts as a highlight color, drawing subtle attention to interactive elements such as buttons and icons without being overwhelming.
+ + Light Yellow (#f3f99f) was used as a background and accent shade to brighten sections and add a peaceful, uplifting atmosphere.
+ + White and Black — included as neutral base tones to ensure clarity, readability, and clean visual contrast across sections.
+
++ Together, these natural tones create a sense of serenity and connection to nature, perfectly aligning with Aurora’s philosophy of mindfulness and balance.
+
+![Color Scheme](documentation/colors.png)
+
+---
+
+### Typography
+
++ Main Font — Quicksand
+  + This soft, rounded sans-serif font was chosen for body text because it is friendly, easy to read, and adds a warm human touch to the site’s overall feeling.
+
+![Font Quicksand](documentation/Quicksand.PNG)
+
++ Accent Font — Instrument Sans
+  + Used for headings and titles, this clean and elegant font brings a sense of structure and confidence while keeping the design modern and minimal.
+
+![Font Instrument Sans](documentation/instrument-sans.PNG)
+
++ The combination of both fonts ensures excellent readability while maintaining a relaxed and approachable tone throughout the website.
+
+---
 
  ## Features Left to Implement for Future
 
@@ -218,7 +252,7 @@ The site can be accessed by this [link](https://liepinaievaa-maker.github.io/med
   + Building it without Bootstrap will help eliminate layout conflicts and make the section visually more aligned with Aurora’s calming and minimal design style.
 ---
 
-# Testing
+## Testing
 
 +  For a full overview of how the project was tested and the results of each section, you can read more in the [TESTING.md](TESTING.md) file.
 ---
@@ -283,6 +317,9 @@ To ensure a smooth update process:
  + All images used on the site were sourced from [Pexels](https://www.pexels.com/) — a free and open-source image platform.
  + Images were resized and optimized using [Squoosh](https://squoosh.app/) to reduce file size and improve Lighthouse performance scores.
  + The website’s favicon was created using the [Favicon Generator](https://favicon.io/) for consistent branding across browsers and devices.
+ + The [cooler](https://coolors.co/) was used to create colour palette for README.md file
+ + [Google Fonts](https://fonts.google.com/selection/embed) was used to import the Instrument Sans and Quicksand typefaces, which together create a calm, modern, and balanced visual style consistent with Aurora’s branding.
+
  ---
 
  ### Acknowledgments
