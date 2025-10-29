@@ -61,37 +61,37 @@ The site scored highly in all categories, confirming that the structure, contras
 ![CSS validator results](documentation/css-walidator.PNG)
 ---
 ### Manual Testing
-| Hero Section | | | | |
+
+| **Feature / Section** | **Action** | **Expected Result** |  **Tested** | **Passed** | **Comments** |
+|-------------------------------------|-----------|----------------|----------|----------|-----------|
+| **Hero Section** | | | | | |
 | Hero image | Load homepage | Image covers full width and adjusts to screen size | Yes | Yes | Minor adjustments made to fix white space bug |
-| Hero text | View on different screen sizes | Text remains centered and readable | Yes | Yes | Adjusted padding and font size for mobile |
+|  Hero text | View on different screen sizes | Text remains centered and readable | Yes | Yes | Adjusted padding and font size for mobile |
 | “Booking” button | Click the button | User is redirected to Booking page | Yes | Yes | Works as intended |
-
-| About Section |||||
-| About images | View on desktop and mobile | Images resize and align properly | Yes | Yes | Optimized using Squoosh for faster loading |
+| **About Section** | | | | |
+|  About section images |  View on desktop and mobile | Images resize and align properly | Yes | Yes | Optimized using [Squoosh](https://squoosh.app/) for faster loading |
 | About text | Read text content | Text is readable and balanced on all screens | Yes | Yes | Responsive layout confirmed |
-
-| Team Page |||||
-| Team cards | View all team members | Cards are displayed evenly in grid format | Yes | Yes | - |
-| Card images | Hover over image | Image remains centered; no distortion | Yes | Yes | - |
+| **Team Page** | | | | |
+| Team cards | View all team members | Cards are displayed evenly in grid format and also on different screens | Yes | Yes | By using Bootsrap I used it's given properties which I adjusted and overwritten in CSS |
+| Card images | Display images correctly | Image remains centered; no distortion | Yes | Yes | Optimized using [Squoosh](https://squoosh.app/) for faster loading | 
 | Booking button on each card | Click “Booking” button | User is redirected to Booking page | Yes | Yes | - |
-
-| Booking Page |||||
+| **Booking Page**  | | | | |
 | Name input | Enter text | Text appears correctly | Yes | Yes | Required field works |
-| Phone input | Enter numbers | Input accepted | Yes | Yes | - |
+| Phone input | Enter numbers | Input accepted | Yes | Yes | Required field works |
 | Email input | Enter valid/invalid email | Valid email accepted; invalid rejected | Yes | Yes | Browser validation works |
-| Teacher dropdown | Select guide from list | Option selected correctly | Yes | Yes | - |
-| Message area | Type message | Text appears and scrolls correctly | Yes | Yes | - |
-| Submit button | Click “Submit” | User redirected to Success page | Yes | Yes | - |
+| Teacher dropdown | Select guide from list (From Team page) | Option selected correctly | Yes | Yes | Required field works |
+| Message area | Type message | Text appears and scrolls correctly | Yes | Yes | After the consultation with mentor required field for message removed |
+| Submit button | Click “Submit” | User redirected to Success page | Yes | Yes | User is redirected to another page after submitting everything correctly |
+| **Success Page** | | | | |
+| Confirmation message | Load success page | “Thank you” message displayed clearly on different screens | Yes | Yes | - |
+| Return button | Click “Return to Home Page” | Redirects back to homepage | Yes | Yes | Works smoothly with redirection to main page |
+| **Footer** | | | | |
+| *Facebook* icon | Click icon | Opens *Facebook* in new tab | Yes | Yes | Uses target="_blank" correctly and have as well hover effect |
+| *Instagram* icon | Click icon | Opens *Instagram* in new tab | Yes | Yes | *The same action happens* |
+| *Youtube* icon | Click icon | Opens *Youtube* in new tab | Yes | Yes | *The same action happens* |
+| Contact info | View text | Address, email, and phone readable and clickable with different icons | Yes | Yes | Consistent across all pages |
 
-| Success Page |||||
-| Confirmation message | Load success page | “Thank you” message displayed clearly | Yes | Yes | - |
-| Return button | Click “Return to Home Page” | Redirects back to homepage | Yes | Yes | Works smoothly |
 
-| Footer |||||
-| Facebook icon | Click icon | Opens Facebook in new tab | Yes | Yes | Uses target="_blank" correctly |
-| Instagram icon | Click icon | Opens Instagram in new tab | Yes | Yes | - |
-| YouTube icon | Click icon | Opens YouTube in new tab | Yes | Yes | - |
-| Contact info | View text | Address, email, and phone readable and clickable | Yes | Yes | Consistent across all pages |
 ---
 
  ### Bugs
