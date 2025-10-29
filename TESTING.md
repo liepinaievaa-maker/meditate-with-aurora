@@ -61,7 +61,7 @@ The site scored highly in all categories, confirming that the structure, contras
 ![CSS validator results](documentation/css-walidator.PNG)
 ---
 ### Manual Testing
-| Hero Section |||||
+| Hero Section | | | | |
 | Hero image | Load homepage | Image covers full width and adjusts to screen size | Yes | Yes | Minor adjustments made to fix white space bug |
 | Hero text | View on different screen sizes | Text remains centered and readable | Yes | Yes | Adjusted padding and font size for mobile |
 | “Booking” button | Click the button | User is redirected to Booking page | Yes | Yes | Works as intended |
