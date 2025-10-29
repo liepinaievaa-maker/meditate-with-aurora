@@ -5,7 +5,7 @@
 /* Root variables*/
 :root {
   --primary-font: 'Instrument Sans', sans-serif;
-  --secondary-font: 'Quicksand', cursive;
+  --secondary-font: 'Quicksand' , cursive;
   --primary-color: #3a5532;            /* dark green */
   --secondary-color: #a9e2bc;          /* lighter green */
   --highlight-color: #4e511a;          /* dark yellow-green */
@@ -102,6 +102,7 @@ h1, h2, h3 {
 p {
   margin-top: 0;
   margin-bottom: 8px;
+  font-family: var(--secondary-font);
 }
 
 /*Navbar*/
